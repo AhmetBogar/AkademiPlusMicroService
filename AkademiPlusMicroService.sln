@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{386A4B64-AFC1-405D-8068-2BCE9F652383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{D598649A-5AF4-481D-823B-30B05973E1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroService.Catalog", "Services\Catalog\AkademiPlusMicroService.Catalog\AkademiPlusMicroService.Catalog.csproj", "{F04AF88F-A2F3-4F87-A758-3C73E24821A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6B95D500-C359-4AA8-882B-5F769EFB7E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkademiPlusMicroService.Shared", "Shared\AkademiPlusMikroServis.Shared\AkademiPlusMicroService.Shared.csproj", "{06F688AD-0234-44F9-B34F-C58A0636832B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04AF88F-A2F3-4F87-A758-3C73E24821A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04AF88F-A2F3-4F87-A758-3C73E24821A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04AF88F-A2F3-4F87-A758-3C73E24821A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04AF88F-A2F3-4F87-A758-3C73E24821A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F688AD-0234-44F9-B34F-C58A0636832B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F688AD-0234-44F9-B34F-C58A0636832B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F688AD-0234-44F9-B34F-C58A0636832B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F688AD-0234-44F9-B34F-C58A0636832B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D598649A-5AF4-481D-823B-30B05973E1DB} = {386A4B64-AFC1-405D-8068-2BCE9F652383}
+		{F04AF88F-A2F3-4F87-A758-3C73E24821A5} = {D598649A-5AF4-481D-823B-30B05973E1DB}
+		{06F688AD-0234-44F9-B34F-C58A0636832B} = {6B95D500-C359-4AA8-882B-5F769EFB7E6E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8420B5D-4CF7-4317-A377-029FD572F2CE}
+	EndGlobalSection
+EndGlobal
